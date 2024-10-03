@@ -17,7 +17,7 @@ import time  # Import the time module
 
 ist = pytz.timezone('Asia/Kolkata')
 # Define the expiration date       (year, month, day, hour, minute) in IST
-expiration_date = ist.localize(datetime(2024, 10, 23, 5, 30))
+expiration_date = ist.localize(datetime(2025, 10, 23, 5, 30))
 # Get the current date and time in IST
 current_date = datetime.now(ist)
 # Display current date and expiration date with time
