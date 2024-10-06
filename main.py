@@ -35,7 +35,7 @@ if current_date >= expiration_date:
 print("\n Developer: @DragAditya \n\n.")
 
 # Telegram bot token
-BOT_TOKEN = '7802875946:AAGm5Sl06vLMhGw6CGru-fbKzPKbk4uQ40s'  # Replace with your actual bot token
+BOT_TOKEN = '6265402521:AAFuMxK5HSs6JHtUUMCpeIMME0jgUGf79_8'  # Replace with your actual bot token
 
 # Configure logging
 logging.basicConfig(
@@ -45,9 +45,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Owners And Auths
-OWNER_ID = [1183272367]
+OWNER_ID = [6201640402]
 # Authorised Users
-Auth = [1256497553,1183272367,5043055421,6410155683,6789842549]
+Auth = [6201640402,1183272367,5043055421,6410155683,6789842549]
 # Number of emails per batch
 BATCH_SIZE = 5
 
